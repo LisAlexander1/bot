@@ -1,9 +1,8 @@
-from tokenize import group
 import telebot
 from telebot import types
 import pylightxl as xl
 
-db = xl.readxl(fn='1.xlsx')
+db = xl.readxl(fn='bot/1.xlsx')
 sheet = db.ws(ws='Лист1')
 col2num = xl.pylightxl.utility_columnletter2num
 num2col = xl.pylightxl.utility_num2columnletters
