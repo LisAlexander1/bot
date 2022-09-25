@@ -7,7 +7,7 @@ sheet = db.ws(ws='Лист1')
 col2num = xl.pylightxl.utility_columnletter2num
 num2col = xl.pylightxl.utility_num2columnletters
 
-bot = telebot.TeleBot("5666067746:AAHltIbmZqzhrLiYbHX0mw6YOhAx88kUfvw")
+bot = telebot.TeleBot("")
 
 
 
